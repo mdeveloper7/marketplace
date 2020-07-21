@@ -1,0 +1,22 @@
+{
+  "name": "marketplace",
+  "version": "0.0.1",
+  "description": "e-commerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd client && yarn start && cd..\" \"cd server && yarn start && cd..\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "mikerdz",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

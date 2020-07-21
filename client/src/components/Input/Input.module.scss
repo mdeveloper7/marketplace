@@ -1,0 +1,35 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.input {
+  :global {
+    .input-group-prepend {
+      .input-group-text {
+        min-width: 45px;
+        border: 1px solid $gray-600;
+        &:hover {
+          outline: none;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    input {
+      &.form-control {
+        &:focus {
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          box-shadow: none;
+        }
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        position: relative;
+        left: 1px;
+      }
+     
+    }
+  }
+}
