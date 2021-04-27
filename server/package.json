@@ -38,7 +38,7 @@
     "multer": "1.4.2",
     "mysql": "2.18.1",
     "rate-limit": "0.1.1",
-    "redis": "3.0.2",
+    "redis": "3.1.1",
     "response-time": "2.3.2",
     "sharp": "0.25.2",
     "swagger-ui-express": "4.1.4",
