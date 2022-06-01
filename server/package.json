@@ -40,7 +40,7 @@
     "rate-limit": "0.1.1",
     "redis": "3.0.2",
     "response-time": "2.3.2",
-    "sharp": "0.25.2",
+    "sharp": "0.30.5",
     "swagger-ui-express": "4.1.4",
     "uuid": "8.0.0",
     "winston": "3.2.1"
